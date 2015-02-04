@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Comfortaa";
+	src: url(/fonts/Comfortaa.ttf) format("truetype");
+}
+
+body {
+	background-color: #00698C;
+	font-family: "Comfortaa";
+}
+
+#title {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+#title_logo {
+	width: 240px;
+	height: 120px;
+}
+
+#title_text {
+	margin: 0;
+	color: #FFF;
+	font-size: 2.5em;
+}
