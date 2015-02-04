@@ -24,3 +24,15 @@ $(function() {
 		}
 	});
 });
+
+$(function() {
+	twitterFetcher.fetch({
+		"id": '563075436511776768',
+		"domId": 'twitter',
+		"maxTweets": 5,
+		"enableLinks": true, 
+		"showUser": true,
+		"showTime": true,
+		"lang": 'en'
+	});
+});
